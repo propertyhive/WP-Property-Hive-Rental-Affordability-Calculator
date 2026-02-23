@@ -3,7 +3,7 @@
  * Plugin Name: Property Hive Rental Affordability Calculator
  * Plugin Uri: https://wp-property-hive.com/addons/rental-affordability-calculator/
  * Description: Quickly and easily add a rental affordability calculator to your website using a simple shortcode 
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: PropertyHive
  * Author URI: https://wp-property-hive.com
  */
@@ -17,7 +17,7 @@ final class PH_Rental_Affordability_Calculator {
     /**
      * @var string
      */
-    public $version = '1.0.2';
+    public $version = '1.0.3';
 
     /**
      * @var Property Hive The single instance of the class

@@ -2,8 +2,8 @@
 Contributors: PropertyHive,BIOSTALL
 Tags: propertyhive, property hive, property, real estate, estate agents, estate agent, rent calculator, rental affordability calculator
 Requires at least: 3.8
-Tested up to: 5.9.2
-Stable tag: 1.0.2
+Tested up to: 6.9.1
+Stable tag: 1.0.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,6 +43,10 @@ Simply add the shortcode [rental_affordability_calculator] where you want it to 
 2. Users are shown the rent they can afford and/or required annual incomes
 
 == Changelog ==
+
+= 1.0.3 =
+* PHP8.2 compatibility
+* Declared compatibility for WordPress 6.9.1
 
 = 1.0.2 =
 * CSS tweak to prevent conflict when theme or third party plugin trying to set background on select dropdowns
