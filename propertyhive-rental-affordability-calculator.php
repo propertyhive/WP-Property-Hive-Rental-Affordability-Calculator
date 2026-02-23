@@ -25,6 +25,16 @@ final class PH_Rental_Affordability_Calculator {
     protected static $_instance = null;
     
     /**
+     * @var string
+     */
+    public $id = '';
+
+    /**
+     * @var string
+     */
+    public $label = '';
+
+    /**
      * Main Property Hive Rental Affordability Calculator Instance
      *
      * Ensures only one instance of Property Hive Rental Affordability Calculator is loaded or can be loaded.
