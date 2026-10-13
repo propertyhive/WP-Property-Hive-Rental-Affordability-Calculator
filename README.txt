@@ -1,9 +1,9 @@
 === Property Hive Rental Affordability Calculator ===
 Contributors: PropertyHive,BIOSTALL
-Tags: propertyhive, property hive, property, real estate, estate agents, estate agent, rent calculator, rental affordability calculator
+Tags: rental affordability, rent calculator, tenant affordability, guarantor calculator, letting agents
 Requires at least: 3.8
-Tested up to: 6.9.1
-Stable tag: 1.0.3
+Tested up to: 7.1
+Stable tag: 1.0.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -11,11 +11,64 @@ Quickly and easily add a rental affordability calculator to your website.
 
 == Description ==
 
-This plugin, from the creators of [Property Hive](https://wordpress.org/plugins/propertyhive/), allows you to quickly and easily add a rental affordability calculator to your website by simply adding the shortcode [rental_affordability_calculator] where you want it to appear.
+Add a free, easy-to-use rental affordability calculator to your WordPress website in seconds. Help tenants understand how much rent they can afford and calculate the income required for tenants and guarantors.
 
-Users simply enter the rent or annual income and the affordable rent and/or required salaries of both of both tenant and guarantor is calculated.
+The **Property Hive Rental Affordability Calculator** plugin makes it simple to add an interactive rent affordability calculator to any WordPress website. Perfect for letting agents, landlords and property professionals looking to help prospective tenants understand rental affordability.
 
-Note: This plugin is independent of Property Hive. You DO NOT need to be using Property Hive to download and use this plugin.
+Simply add a shortcode to any page or post, and visitors can instantly calculate affordable rent or the annual income required to rent a property.
+
+= Features =
+
+* **Free WordPress rental affordability calculator** - No subscription or ongoing fees.
+* **Instant affordability calculations** - Help visitors understand how much rent they could afford based on their annual income.
+* **Tenant income requirements** - Calculate the annual salary a tenant would need for a given monthly rent.
+* **Guarantor income requirements** - Estimate the annual income required for a rental guarantor.
+* **Calculate in both directions** - Enter a rental amount to calculate required income, or enter annual income to estimate affordable rent.
+* **Easy shortcode integration** - Add a rental affordability calculator to any WordPress page or post in seconds.
+* **Simple to use** - No complicated configuration or technical knowledge required.
+* **Works independently** - Compatible with any WordPress website. Property Hive is not required.
+
+= How Does the Rental Affordability Calculator Work? =
+
+The calculator allows visitors to check rental affordability in two ways:
+
+**Calculate how much rent you can afford**
+
+Enter an annual income to estimate the monthly rent that may be affordable based on the calculator's affordability criteria.
+
+**Calculate the income required to rent a property**
+
+Enter a rental amount to calculate the annual income a tenant or guarantor may need to meet the affordability requirements.
+
+Results are calculated instantly making it easy for prospective tenants to understand their potential rental budget.
+
+= How to Add a Rental Affordability Calculator to WordPress =
+
+Getting started couldn't be easier:
+
+1. Install and activate the Property Hive Rental Affordability Calculator plugin.
+2. Create or edit the WordPress page or post where you want the calculator to appear.
+3. Add the following shortcode:
+
+`[rental_affordability_calculator]`
+
+4. Save your page and you're done! Visitors can now calculate rental affordability directly on your website.
+
+= Perfect for Letting Agent Websites =
+
+One of the most important questions prospective tenants have when searching for a rental property is whether they can afford the monthly rent.
+
+By adding a rental affordability calculator to your letting agency website, you can help tenants understand their rental budget before arranging viewings or submitting enquiries.
+
+The calculator can also help prospective tenants understand the income requirements for a guarantor, making the rental process clearer from the outset.
+
+Whether you're a letting agent, landlord or property professional, a rental affordability calculator is a useful addition to any rental property website.
+
+= Do I Need Property Hive? =
+
+**No!** Although developed by the creators of [Property Hive](https://wordpress.org/plugins/propertyhive/), this rental affordability calculator is a completely standalone WordPress plugin.
+
+You don't need to have Property Hive installed or be using it to manage your properties. Simply install the plugin and start displaying a rental affordability calculator on your website.
 
 == Installation ==
 
@@ -43,6 +96,9 @@ Simply add the shortcode [rental_affordability_calculator] where you want it to 
 2. Users are shown the rent they can afford and/or required annual incomes
 
 == Changelog ==
+
+= 1.0.4 =
+* Declared compatibility for WordPress 7.1
 
 = 1.0.3 =
 * PHP8.2 compatibility
